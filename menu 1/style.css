@@ -1,19 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-containr{
-  width: 100%;
-  display: block;
-  overflow: hidden;
-}
+
+/***************
+** Navigation menu
+*********/
 .listarow {
   rotate: 180deg;
   display: inline-block;
 }
-/***************
-** Navigation menu
-*********/
 .hambargerwrp {
   display: none;
 }
