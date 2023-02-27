@@ -12,7 +12,8 @@
 
 
 <?php
-// Add custom navigation menus.
+// Add register navigation menus code and Walker function code into functions.php file
+
 register_nav_menus( array(
 	'newone_primary'   => __( 'First Menu', 'newone' ),
 	'newone_secondary' => __( 'Secondary Menu', 'newone' ),
@@ -21,7 +22,7 @@ register_nav_menus( array(
 
 
 /*********
- ** Use of this Walker function for showing menu descrition
+ ** Use of the Walker function code for showing menu descrition
  ***/
  
 //(1) Walker function 
